@@ -5,8 +5,15 @@ import requests
 
 global bot
 global TOKEN
+global bot_token
+global bot_user_name
+global URL 
+bot_token = "Your Bot API token"
+bot_user_name = "gci_fedora_bot"
+URL = "Link for your hosted app"
 TOKEN = bot_token
 bot = telegram.Bot(token=TOKEN)
+
 
 app = Flask(__name__)
 
